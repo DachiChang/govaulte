@@ -9,7 +9,7 @@ govaulte aims to use approle to acces secret which in hashicorp Vault and produc
 
 ## Test your vaulte credential is worked
 
-1. Export your credential to local environments. (see also http://github.com/dachichang/govaulte/vaulte-credential-generator)
+1. Export your credential to local environments. (see also [vaulte-credential-generator](https://github.com/DachiChang/govaulte/tree/main/vaulte-credential-generator))
   ```
   export $(xargs < vaulte_credential)
   ```
@@ -25,4 +25,4 @@ govaulte aims to use approle to acces secret which in hashicorp Vault and produc
 
 ## Reference
 
-- Use [vaulte-credential-generator](https://github..com/dachichang/govaulte/vaulte-credential-generator) to easy generate your vaulte credential.
+- Use [vaulte-credential-generator](https://github.com/DachiChang/govaulte/tree/main/vaulte-credential-generator) to easy generate your vaulte credential.
